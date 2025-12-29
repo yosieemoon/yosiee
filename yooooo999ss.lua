@@ -25,11 +25,11 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Selling"] = {
         ["Auto Sell"] = true,
         ["Auto Sell Threshold"] = "Legendary",
-        ["Auto Sell Every"] = 100,
+        ["Auto Sell Every"] = 500,
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
-        ["Auto Element Rod"] = false,
+        ["Auto Element Rod"] = true,
  	["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
@@ -125,3 +125,4 @@ script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://api.wintercode.dev/loader/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
+
