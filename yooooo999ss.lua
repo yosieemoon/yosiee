@@ -43,6 +43,8 @@ _G.FishItConfig = _G.FishItConfig or {
             "Mosasaur Shark",
             "Cryoshade Glider",
             "Giant Squid",
+            "Depthseeker Ray",
+            "Bone Whale",
         },
         ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
 
@@ -82,6 +84,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enchant List"] = {
             "SECRET Hunter",
             "Shark Hunter",
+            "Big Hunter I",
             "Fairy Hunter",
         },
         ["Second Enchant"] = true,
@@ -95,11 +98,13 @@ _G.FishItConfig = _G.FishItConfig or {
             "Mosasaur Shark",
             "Cryoshade Glider",
             "Giant Squid",
+            "Depthseeker Ray",
+            "Bone Whale",
         },
         ["Second Enchant List"] = {
             "SECRET Hunter",
             "Shark Hunter",
-            "Fairy Hunter",
+            "Mutation Hunter III",
             "Big Hunter I",
             
         },
@@ -132,7 +137,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
 
     ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = false,
+    ["UltimatePerformance"] = true,
     ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = true,
 
@@ -146,6 +151,7 @@ script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://api.wintercode.dev/loader/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
+
 
 
 
