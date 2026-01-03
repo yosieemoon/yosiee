@@ -6,7 +6,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Fish Name"] = {
             "Gar Fish","Sacred Guardian Squid"
         },
-        ["Auto Accept Trade"] = false,
+        ["Auto Accept Trade"] = true,
     },
     ["Auto Trade"] = {
       ["Enabled"] = true,
@@ -31,7 +31,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
-        ["Auto Element Rod"] = true,
+        ["Auto Element Rod"] = false,
  	["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
@@ -90,7 +90,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Reeler I",
             "Reeler II",
         },
-        ["Second Enchant"] = true,
+        ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
             "Ghost Shark",
@@ -134,7 +134,8 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
-            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod", "Bamboo Rod"},
+            ["Esoteric Depths"] = {"Ghostfinn Rod", "Angler Rod", "Ares Rod", "Bamboo Rod"},
+            ["Ancient Ruin"] = {"Element Rod"},
         },
     },
 
@@ -153,6 +154,7 @@ script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://api.wintercode.dev/loader/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
+
 
 
 
