@@ -80,7 +80,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Enchant"] = {
         ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
-        ["Evolved Roll Enchant"] = true, -- true = Roll Evolved Stone until get ANY evolved-only enchant from list, then fallback to regular stone
+        ["Evolved Roll Enchant"] = false, -- true = Roll Evolved Stone until get ANY evolved-only enchant from list, then fallback to regular stone
         ["Enchant List"] = {
             "SECRET Hunter",
             "Shark Hunter",
@@ -90,7 +90,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Reeler I",
             "Reeler II",
         },
-        ["Second Enchant"] = false,
+        ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
             "Ghost Shark",
@@ -105,9 +105,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Bone Whale",
         },
         ["Second Enchant List"] = {
-            "Reeler I",
-            "Prismatic I",
-            "Mutation Hunter II",
+            "Perfection",
             
         },
         ["Minimum Rod"] = "Element Rod",
@@ -154,6 +152,7 @@ script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://api.wintercode.dev/loader/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
+
 
 
 
