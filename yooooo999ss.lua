@@ -53,7 +53,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["WebHook"] = {
         ["Link Webhook"] = "https://discord.com/api/webhooks/1415211763091247155/oPwylc3-SPn35TcC7mZKmFPnbGSqGa6xOqRAD2FMkBOLb0PbGRpkfcT_jgF6kS0gNMpX",
         ["Auto Sending"] = true,
-        ["Category"] = {"Secret"},{"Legendary"},
+        ["Category"] = {"Secret"},
 
         ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1449824144286945351/KFJOtI1N9AcNg3EXjXAGq7l90brfg2BIDuh1lOoSH-0YqwrI96tZIGuMPz4gjY3-OPPr",
     },
@@ -67,15 +67,6 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Potions"] = {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Astral Rod",
-    },
-    ["Totems"] = {
-        ["Auto Use"] = true,
-        ["Minimum Rod"] = "Ghostfinn Rod",
-        ["Buy List"] = {
-            "Luck Totem",
-            "Mutation Totem",
-            "Shiny Totem",
-        },
     },
     ["Event"] = {
         ["Start Farm"] = true,
@@ -140,7 +131,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
-            ["Tropical Grove"] = {"Astral Rod"}
+            ["Tropical Grove"] = {"Astral Rod"},
             ["Ancient Ruin"] = {"Element Rod","Ghostfinn Rod", "Angler Rod", "Ares Rod", "Bamboo Rod"},
         },
     },
@@ -159,14 +150,9 @@ _G.FishItConfig = _G.FishItConfig or {
 script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
 
 loadstring(game:HttpGet("https://paste.monster/lwDAcZvahN9G/raw/"))()
-    
+
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://api.wintercode.dev/loader/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
-
-
-
-
-
 
 
 
