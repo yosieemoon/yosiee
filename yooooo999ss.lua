@@ -12,7 +12,8 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Auto Trade"] = {
       ["Enabled"] = true,
         ["Whitelist Username"] = {"ynthnmrtin","blanknew40","moonmart0910","warungminang2","warungminang894"},
-        ["Category Fish"] = { -- Only Select one, fill in the fish category or fish name    
+        ["Category Fish"] = {
+            "Secret"
         },
         ["Fish Name"] = {"Ruby"
         },
