@@ -17,7 +17,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Category Fish"] = {
             "Secret"
         },
-        ["Fish Name"] = {"Ruby","Sacred Guardian Squid","Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin"
+        ["Fish Name"] = {"Ruby","Sacred Guardian Squid","Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin""Gingerbread Shark","Frostveil Ray","Starry Night Shark","Nutcracker Ray","Festive Dolphin","Icy Swordfish","Frostglow Globe Jelly","Frostshell Turtle",
         },
         ["Item Name"] = {
             "Evolved Enchant Stone",
