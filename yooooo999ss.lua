@@ -1,79 +1,164 @@
-_G.Config={UserID="a675440d-51e7-4396-a617-504754c4658e",discord_id="1206257142630195233",Note="prince"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/fishit"))()end)if s then break end wait(5)end
-_G.ROD_PROFILE = {
-    Default = { FinishDelay = 1.0 },
-    ["Element Rod"] = { FinishDelay = 1.25 },
-    ["Ghosfinn Rod"] = { FinishDelay = 1.37 },
-    ["Angler Rod"]  = { FinishDelay = 1.65 },
-    ["Bamboo Rod"]  = { FinishDelay = 1.35 },
-    ["Ares Rod"] = { FinishDelay = 1.65 },
-    ["Astral Rod"] = { FinishDelay = 1.8 },
-    ["Midnight Rod"] = { FinishDelay = 2 },
-    ["Grass Rod"] = { FinishDelay = 2.2 },
-    ["Starter Rod"] = { FinishDelay = 2.5 },
+_G.Config={UserID="a675440d-51e7-4396-a617-504754c4658e",discord_id="1206257142630195233",Note="LISTBARU"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/fishit"))()end)if s then break end wait(5)end
+_G.FishItConfig = _G.FishItConfig or {
+    ["Fishing"] = {
+        ["Auto Perfect"] = false,
+        ["Random Result"] = false,
+        ["Auto Favorite"] = true,
+        ["Fish Name"] = {
+            "Sacred Guardian Squid",
+            {Name = "Ruby", Variant = "Gemstone"},"Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin", 
+        },
+        ["Auto Accept Trade"] = false,
+        ["Auto Friend Request"] = true,
+    },
+    ["Auto Trade"] = {
+      ["Enabled"] = true,
+        ["Whitelist Username"] = {"ynthnmrtin","blanknew40","moonmart0910","warungminang2","warungminang894"},
+        ["Category Fish"] = {
+            "Secret"
+        },
+        ["Fish Name"] = {"Ruby","Sacred Guardian Squid","Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin","Gingerbread Shark"
+        },
+        ["Item Name"] = {
+            "Evolved Enchant Stone",
+    },
+},
+    ["Farm Coin Only"] = {
+        ["Enabled"] = false, -- Farm coins only [ cant buy rod, bait, enchant, weather ]
+        ["Target"] = 190000,
+    },
+    ["Selling"] = {
+        ["Auto Sell"] = true,
+        ["Auto Sell Threshold"] = "Legendary",
+        ["Auto Sell Every"] = 500,
+    },
+    ["Doing Quest"] = {
+        ["Auto Ghostfinn Rod"] = true,
+        ["Auto Element Rod"] = false,
+ 	["Unlock Ancient Ruin"] = true,
+        ["Allowed Sacrifice"] = {
+            "Blob Shark",
+            "Ghost Shark",
+            "Thin Armor Shark",
+            "King Jelly",
+            "Skeleton Narwhal",
+            "Gladiator Shark",
+            "Mosasaur Shark",
+            "Cryoshade Glider",
+            "Giant Squid",
+            "Depthseeker Ray",
+            "Bone Whale",
+        },
+        ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
 
+        ["Minimum Rod"] = "Astral Rod",
+    },
+    ["WebHook"] = {
+        ["Link Webhook"] = "https://discord.com/api/webhooks/1415211763091247155/oPwylc3-SPn35TcC7mZKmFPnbGSqGa6xOqRAD2FMkBOLb0PbGRpkfcT_jgF6kS0gNMpX",
+        ["Auto Sending"] = true,
+        ["Category"] = {"Secret"},
+
+        ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1449824144286945351/KFJOtI1N9AcNg3EXjXAGq7l90brfg2BIDuh1lOoSH-0YqwrI96tZIGuMPz4gjY3-OPPr",
+    },
+    ["Weather"] = {
+        ["Auto Buying"] = true,
+        ["Minimum Rod"] = "Astral Rod",
+        ["Weather List"] = {
+            "Wind",
+        },
+    },
+    ["Potions"] = {
+        ["Auto Use"] = true,
+        ["Minimum Rod"] = "Astral Rod",
+    },
+    ["Totems"] = {
+        ["Auto Use"] = true,
+        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Buy List"] = {
+            "Luck Totem",
+            "Mutation Totem",
+        },
+    },
+    ["Event"] = {
+        ["Start Farm"] = false,
+        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Event List"] = {
+            ["Christmas Cave"] = false,
+            ["Hacker Event"] = false,
+            
+        },
+    },
+    ["Enchant"] = {
+        ["Auto Enchant"] = true,
+        ["Roll Enchant"] = false,
+        ["Evolved Roll Enchant"] = false, -- true = Roll Evolved Stone until get ANY evolved-only enchant from list, then fallback to regular stone
+        ["Enchant List"] = {
+            "SECRET Hunter",
+            "Shark Hunter",
+            "Mutation Hunter III",
+            "Big Hunter I",
+            "Fairy Hunter",
+            "Reeler I",
+            "Reeler II",
+        },
+        ["Second Enchant"] = true,
+        ["Allowed Sacrifice"] = {
+            "Blob Shark",
+            "Ghost Shark",
+            "Thin Armor Shark",
+            "King Jelly",
+            "Skeleton Narwhal",
+            "Gladiator Shark",
+            "Mosasaur Shark",
+            "Cryoshade Glider",
+            "Giant Squid",
+            "Depthseeker Ray",
+            "Bone Whale",
+        },
+        ["Second Enchant List"] = {
+            "Perfection",
+            
+        },
+        ["Minimum Rod"] = "Element Rod",
+    },
+    ["Bait List"] = {
+        ["Auto Buying"] = true,
+        ["Buy List"] = {
+            "Midnight Bait",
+            "Chroma Bait",
+            "Corrupt Bait",
+            "Aether Bait",
+            "Singularity Bait",
+        },
+    },
+    ["Rod List"] = {
+        ["Auto Buying"] = true,
+        ["Buy List"] = {
+            "Grass Rod",
+            "Midnight Rod",
+            "Astral Rod",
+            "Ares Rod",
+            "Angler Rod",
+        },
+        ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location
+            ["Fisherman Island"] = {"Starter Rod"},
+            ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
+            ["Tropical Grove"] = {"Astral Rod"},
+            ["Ancient Ruin"] = {"Element Rod","Ghostfinn Rod", "Angler Rod", "Ares Rod", "Bamboo Rod"},
+        },
+    },
+
+    ["ExtremeFpsBoost"] = true,
+    ["UltimatePerformance"] = true,
+    ["Disable3DRender"] = false,
+    ["AutoRemovePlayer"] = true,
+
+    ["AutoReconnect"] = true,
+    ["HideGUI"] = false,
+    ["Debug"] = false,
+    ["EXIT_MAP_IF_DISCONNECT"] = true,
 }
-_G.BOOST_FPS = true
-_G.WEATHER_ACTIVE = {
-    "Storm",
-    "Cloudy",
-    "Snow",
-    "Wind",
-    "Radiant",
-}
-_G.ISLAND_ROD_PRIORITY = {
-    ["Esoteric Depths"] = { "Bamboo Rod", "Astral Rod","Ares Rod","Element Rod", "Ghosfinn Rod", "Angler Rod",  },
-    ["Kohana Volcano"] = { "Starter Rod", "Grass Rod", "Midnight Rod" },
-    Default = { "Element Rod" }
-}
-
---[[
-    LIST FULL ISLAND LOCATION :
-    
-1. Ancient Jungle
-2. Ancient Ruin
-3. Classic Island
-4. Coral Reefs
-5. Crater Island
-6. Esoteric Depths
-7. Fisherman Island
-8. Iron Cafe
-9. Iron Cavern
-10. Kohana
-11. Kohana Volcano
-12. Mysterious Room
-13. Ocean
-14. Sacred Temple
-15. Sisyphus Statue
-16. Treasure Room
-17. Tropical Grove
-18. Underground Cellar
-]]
-
-_G.AUTO_POTION = true
-_G.AUTO_FARM = true
-_G.FARM_ISLAND = "Ancient Ruin"
-
---[[
-    LIST NAME ISLAND FOR AUTO FARM :
-    
-    Crater Islands",
-    Tropical Grove",
-    Vulcano",
-    Coral Reefs",
-    Winter",
-    Machine",
-    Treasure Room",
-    Sisyphus Statue",
-    Fisherman Island",
-    Esoteric Depths",
-    Kohana",
-    Underground Cellar",
-    Ancient Jungle",
-    Secret Farm Ancient",
-    The Temple (Unlock First)",
-    Ancient Ruin",
-    Iron Cavern",
-    The Iron Cafe"
-]]
+script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
 loadstring(game:HttpGet("https://paste.monster/lwDAcZvahN9G/raw/"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/buslfke/Blebleble/refs/heads/shibal/ns/fix/SooyFish.lua"))()
+local s,r repeat s,r=pcall(function()return game:HttpGet("https://api.wintercode.dev/loader/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
