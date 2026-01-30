@@ -54,7 +54,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
-        ["Link Webhook"] = "https://discord.com/api/webhooks/1415211763091247155/oPwylc3-SPn35TcC7mZKmFPnbGSqGa6xOqRAD2FMkBOLb0PbGRpkfcT_jgF6kS0gNMpX",
+        ["Link Webhook"] = "https://discordapp.com/api/webhooks/1466923979381018736/GRsYfKAhq6CbeumBKzbM8kPQ-j8oNplSyZz6AXkuQ0r2pT-CbDGT9q23ntECDRYn4c7i",
         ["Auto Sending"] = true,
         ["Category"] = {"Secret"},
 
@@ -65,6 +65,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
         ["Weather List"] = {
             "Wind",
+            "Storm",
+            "Cloudy",
         },
     },
     ["Potions"] = {
@@ -93,12 +95,15 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Roll Enchant"] = false,
         ["Evolved Roll Enchant"] = false, -- true = Roll Evolved Stone until get ANY evolved-only enchant from list, then fallback to regular stone
         ["Enchant List"] = {
+            "Reeler I",
+            "Empowered I",
+            "Big Hunter I",
+            "Mutation Hunter II".
+            "Prismatic",
             "SECRET Hunter",
             "Shark Hunter",
             "Mutation Hunter III",
-            "Big Hunter I",
             "Fairy Hunter",
-            "Reeler I",
             "Reeler II",
         },
         ["Second Enchant"] = true,
@@ -117,9 +122,12 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Second Enchant List"] = {
             "Perfection",
-            
+            "Reeler I",
+            "Empowered I",
+            "Big Hunter I",
+            "Mutation Hunter II",
         },
-        ["Minimum Rod"] = "Element Rod",
+        ["Minimum Rod"] = "Ghostfinn Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
@@ -162,3 +170,4 @@ script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
 loadstring(game:HttpGet("https://paste.monster/lwDAcZvahN9G/raw/"))()
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://api.wintercode.dev/loader/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
+
