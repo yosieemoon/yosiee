@@ -65,6 +65,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
         ["Weather List"] = {
             "Wind",
+            "Storm",
+            "Cloudy",
         },
     },
     ["Potions"] = {
@@ -93,12 +95,12 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Roll Enchant"] = false,
         ["Evolved Roll Enchant"] = false, -- true = Roll Evolved Stone until get ANY evolved-only enchant from list, then fallback to regular stone
         ["Enchant List"] = {
-            "SECRET Hunter",
-            "Shark Hunter",
-            "Mutation Hunter III",
-            "Big Hunter I",
-            "Fairy Hunter",
             "Reeler I",
+            "Empowered I",
+            "Big Hunter I",
+            "Mutation Hunter II",
+            "Prismatic",
+            "SECRET Hunter",
             "Reeler II",
         },
         ["Second Enchant"] = true,
@@ -117,9 +119,13 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Second Enchant List"] = {
             "Perfection",
+            "Reeler I",
+            "Empowered I",
+            "Big Hunter I",
+            "Mutation Hunter I",
             
         },
-        ["Minimum Rod"] = "Element Rod",
+        ["Minimum Rod"] = "Ghostfinn Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
@@ -165,6 +171,7 @@ loadstring(game:HttpGet("https://paste.monster/lwDAcZvahN9G/raw/"))()
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://api.wintercode.dev/loader/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
+
 
 
 
