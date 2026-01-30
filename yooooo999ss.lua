@@ -1,4 +1,4 @@
-_G.Config={UserID="a675440d-51e7-4396-a617-504754c4658e",discord_id="1206257142630195233",Note="MONICCANTIK"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/fishit"))()end)if s then break end wait(5)end
+_G.Config={UserID="a675440d-51e7-4396-a617-504754c4658e",discord_id="1206257142630195233",Note="moniccantik"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/fishit"))()end)if s then break end wait(5)end
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
         ["Auto Perfect"] = false,
@@ -54,7 +54,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
-        ["Link Webhook"] = "https://discordapp.com/api/webhooks/1466923979381018736/GRsYfKAhq6CbeumBKzbM8kPQ-j8oNplSyZz6AXkuQ0r2pT-CbDGT9q23ntECDRYn4c7i",
+        ["Link Webhook"] = "https://discord.com/api/webhooks/1415211763091247155/oPwylc3-SPn35TcC7mZKmFPnbGSqGa6xOqRAD2FMkBOLb0PbGRpkfcT_jgF6kS0gNMpX",
         ["Auto Sending"] = true,
         ["Category"] = {"Secret"},
 
@@ -122,6 +122,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Second Enchant List"] = {
             "Perfection",
+            "Perfection",
             "Reeler I",
             "Empowered I",
             "Big Hunter I",
@@ -166,9 +167,10 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Debug"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = true,
 }
+
 script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
+
 loadstring(game:HttpGet("https://paste.monster/lwDAcZvahN9G/raw/"))()
+
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://api.wintercode.dev/loader/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
-
-
