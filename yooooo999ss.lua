@@ -148,8 +148,8 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location
             ["Fisherman Island"] = {"Starter Rod"},
-            ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
-            ["Tropical Grove"] = {"Astral Rod"},
+            ["Kohana Volcano"] = {"Grass Rod"},
+            ["Treasure Room"] = {"Astral Rod","Midnight Rod"},
             ["Ancient Ruin"] = {"Element Rod","Ghostfinn Rod", "Angler Rod", "Ares Rod", "Bamboo Rod"},
         },
     },
@@ -171,6 +171,7 @@ loadstring(game:HttpGet("https://paste.monster/lwDAcZvahN9G/raw/"))()
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
+
 
 
 
