@@ -48,8 +48,10 @@ _G.FishItConfig = _G.FishItConfig or {
             "Giant Squid",
             "Depthseeker Ray",
             "Bone Whale",
+            "Queen Crab",
+            "King Crab",
         },
-        ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
+        ["FARM_LOC_SECRET_SACRIFICE"] = "Treasure Room",
 
         ["Minimum Rod"] = "Astral Rod",
     },
@@ -94,13 +96,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Roll Enchant"] = false,
         ["Evolved Roll Enchant"] = false, -- true = Roll Evolved Stone until get ANY evolved-only enchant from list, then fallback to regular stone
         ["Enchant List"] = {
-            "Reeler I",
-            "Empowered I",
-            "Big Hunter I",
-            "Mutation Hunter II",
-            "Prismatic",
-            "SECRET Hunter",
-            "Reeler II",
+            "Cursed I",
+    
         },
         ["Second Enchant"] = true,
         ["Allowed Sacrifice"] = {
@@ -115,14 +112,12 @@ _G.FishItConfig = _G.FishItConfig or {
             "Giant Squid",
             "Depthseeker Ray",
             "Bone Whale",
+            "Queen Crab",
+            "King Crab",
         },
         ["Second Enchant List"] = {
-            "Perfection",
-            "Reeler I",
-            "Empowered I",
-            "Big Hunter I",
-            "Mutation Hunter I",
-            
+            "Cursed I",
+           
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
@@ -148,8 +143,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod"},
-            ["Treasure Room"] = {"Astral Rod","Midnight Rod"},
-            ["Ancient Ruin"] = {"Element Rod","Ghostfinn Rod", "Angler Rod", "Ares Rod", "Bamboo Rod"},
+            ["Tropical Grove"] = {"Astral Rod","Midnight Rod"},
+            ["Treasure Room"] = {"Element Rod","Ghostfinn Rod", "Angler Rod", "Ares Rod", "Bamboo Rod"},
         },
     },
 
@@ -171,6 +166,7 @@ loadstring(game:HttpGet("https://sc.pebletz.xyz/loader?t=disconnect_detector"))(
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
+
 
 
 
