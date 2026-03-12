@@ -77,8 +77,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            "Luck Totem",
-            "Mutation Totem",
+            ["Mutation Totem"] = 5,
         },
     },
     ["Event"] = {
@@ -172,6 +171,7 @@ loadstring(game:HttpGet("https://sc.pebletz.xyz/loader?t=disconnect_detector"))(
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
+
 
 
 
