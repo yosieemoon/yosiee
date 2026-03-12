@@ -63,10 +63,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
         ["Item Name"] = {
             "Evolved Enchant Stone",
-    },
-        ["Link Webhook"] = "https://discordapp.com/api/webhooks/1481702024050643197/Aoayl7rUYtxZ3UrHS6hNLe9yKe0z_4LY39xjp9Kxoxn0rTCBMOoUM6RkV1gHQN8706E0",
-},
-                    
+    },              
         ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1449824144286945351/KFJOtI1N9AcNg3EXjXAGq7l90brfg2BIDuh1lOoSH-0YqwrI96tZIGuMPz4gjY3-OPPr",
     },
     ["Weather"] = {
@@ -173,6 +170,7 @@ loadstring(game:HttpGet("https://sc.pebletz.xyz/loader?t=disconnect_detector"))(
 
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
+
 
 
 
