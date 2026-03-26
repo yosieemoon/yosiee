@@ -51,8 +51,9 @@ _G.FishItConfig = _G.FishItConfig or {
             "Bone Whale",
             "Queen Crab",
             "King Crab",
+            "Elshark Gran Maja",
         },
-        ["FARM_LOC_SECRET_SACRIFICE"] = "Treasure Room",
+        ["FARM_LOC_SECRET_SACRIFICE"] = "Ancient Ruin",
 
         ["Minimum Rod"] = "Astral Rod",
     },
