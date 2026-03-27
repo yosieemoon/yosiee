@@ -6,7 +6,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Favorite"] = true,
         ["Fish Name"] = {
             "Sacred Guardian Squid",
-            {Name = "Ruby", Variant = "Gemstone"},"Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin", 
+            {Name = "Ruby", Variant = "Gemstone"},"Ketupat Lobster","Ketupat Tallfish","Ketupat Slug","Ketupat Fish","Giftback Turtle","Christmas Penguin", 
         },
         ["Auto Accept Trade"] = false,
         ["Auto Friend Request"] = false,
