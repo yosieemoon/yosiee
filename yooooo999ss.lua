@@ -35,7 +35,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
         ["Auto Element Rod"] = false,
-        ["Auto Element Rod 2"] = true,
+        ["Auto Element Rod 2"] = false,
  	["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
@@ -149,7 +149,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod"},
             ["Tropical Grove"] = {"Astral Rod","Midnight Rod"},
-            ["Ancient Ruin"] = {"Element Rod","Ghostfinn Rod", "Angler Rod", "Ares Rod", "Bamboo Rod"},
+            ["Eid Mubarak"] = {"Element Rod","Ghostfinn Rod", "Angler Rod", "Ares Rod", "Bamboo Rod"},
         },
     },
 
