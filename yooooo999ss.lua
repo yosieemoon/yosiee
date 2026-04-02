@@ -8,7 +8,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},"Ketupat Lobster","Ketupat Tallfish","Ketupat Slug","Ketupat Fish","Giftback Turtle","Christmas Penguin", 
         },
-        ["Auto Accept Trade"] = false,
+        ["Auto Accept Trade"] = true,
         ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
