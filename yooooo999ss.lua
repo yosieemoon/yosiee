@@ -6,7 +6,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Favorite"] = true,
         ["Fish Name"] = {
             "Sacred Guardian Squid",
-            {Name = "Ruby", Variant = "Gemstone"},"Ketupat Lobster","Ketupat Tallfish","Ketupat Slug","Ketupat Fish","Giftback Turtle","Christmas Penguin", 
+            {Name = "Ruby", Variant = "Gemstone"},"Easter Duckling","Pastel Guppie","Chocolate Bunny Fish",
         },
         ["Auto Accept Trade"] = true,
         ["Auto Friend Request"] = false,
@@ -63,7 +63,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Secret",
             {Name = "Ruby", Variant = "Gemstone"},
         },
-        ["Item Name"] = {"Evolved Enchant Stone",},
+        ["Item Name"] = {"Evolved Enchant Stone",},{"Eggy Enchant Stone",},
         ["Link Webhook"] = "https://discord.com/api/webhooks/1415211763091247155/oPwylc3-SPn35TcC7mZKmFPnbGSqGa6xOqRAD2FMkBOLb0PbGRpkfcT_jgF6kS0gNMpX",
         ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1449824144286945351/KFJOtI1N9AcNg3EXjXAGq7l90brfg2BIDuh1lOoSH-0YqwrI96tZIGuMPz4gjY3-OPPr",
     },
