@@ -20,7 +20,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Fish Name"] = {"Ruby","Sacred Guardian Squid","Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin","Gingerbread Shark"
         },
         ["Item Name"] = {
-            "Evolved Enchant Stone",
+            "Evolved Enchant Stone","Eggy Enchant Stone",
     },
 },
     ["Farm Coin Only"] = {
