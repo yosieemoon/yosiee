@@ -15,12 +15,12 @@ _G.FishItConfig = _G.FishItConfig or {
       ["Enabled"] = true,
         ["Whitelist Username"] = {"ynthnmrtin","moonmart0910","warungminang2","warungminang894","kkndesapenari33","blanknew40","watanabe11116"},
         ["Category Fish"] = {
-            
+            "Secret"
         },
         ["Fish Name"] = {"Ruby","Sacred Guardian Squid","Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin","Gingerbread Shark"
         },
         ["Item Name"] = {
-            "Eggy Enchant Stone",
+            "Eggy Enchant Stone","Evolved Enchant Stone",
     },
 },
     ["Farm Coin Only"] = {
