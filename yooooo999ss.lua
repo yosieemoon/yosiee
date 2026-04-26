@@ -37,7 +37,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Element Rod"] = false,
         ["Auto Element Rod 2"] = true,
         ["Auto Diamond Rod"] = true,
- 	["Unlock Ancient Ruin"] = false,
+ 	["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
             "Ghost Shark",
@@ -147,10 +147,10 @@ _G.FishItConfig = _G.FishItConfig or {
             "Angler Rod",
         },
         ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location
-            ["Easter Cave"] = {"Starter Rod"},
-            ["Easter Cave"] = {"Grass Rod"},
-            ["Easter Cave"] = {"Astral Rod","Midnight Rod"},
-            ["Easter Cave"] = {"Element Rod","Ghostfinn Rod", "Angler Rod", "Ares Rod", "Bamboo Rod"},
+            ["Kohana Volcano"] = {"Starter Rod"},
+            ["Kohana Volcano"] = {"Grass Rod"},
+            ["Kohana"] = {"Astral Rod","Midnight Rod"},
+            ["Ancient Ruin"] = {"Element Rod","Ghostfinn Rod", "Angler Rod", "Ares Rod", "Bamboo Rod"},
         },
     },
 
