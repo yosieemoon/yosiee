@@ -36,7 +36,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Ghostfinn Rod"] = true,
         ["Auto Element Rod"] = false,
         ["Auto Element Rod 2"] = true,
-        ["Auto Diamond Rod"] = true,
+        ["Auto Diamond Rod"] = false,
  	["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
