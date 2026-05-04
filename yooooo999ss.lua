@@ -20,7 +20,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Fish Name"] = {"Ruby","Sacred Guardian Squid","Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin","Gingerbread Shark"
         },
         ["Item Name"] = {
-            "Eggy Enchant Stone","Evolved Enchant Stone",
+            "Eggy Enchant Stone","Evolved Enchant Stone",""Runic Enchant Stone",
     },
 },
     ["Farm Coin Only"] = {
@@ -64,7 +64,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Secret",
             {Name = "Ruby", Variant = "Gemstone"},
         },
-        ["Item Name"] = {"Evolved Enchant Stone",},{"Eggy Enchant Stone",},
+        ["Item Name"] = {"Evolved Enchant Stone",},{"Eggy Enchant Stone",},{"Runic Enchant Stone",},
         ["Link Webhook"] = "https://discord.com/api/webhooks/1415211763091247155/oPwylc3-SPn35TcC7mZKmFPnbGSqGa6xOqRAD2FMkBOLb0PbGRpkfcT_jgF6kS0gNMpX",
         ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1449824144286945351/KFJOtI1N9AcNg3EXjXAGq7l90brfg2BIDuh1lOoSH-0YqwrI96tZIGuMPz4gjY3-OPPr",
     },
@@ -150,7 +150,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Kohana Volcano"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod"},
             ["Kohana"] = {"Astral Rod","Midnight Rod"},
-            ["Ancient Ruin"] = {"Element Rod","Ghostfinn Rod", "Angler Rod", "Ares Rod", "Bamboo Rod"},
+            ["Underwater City"] = {"Element Rod","Ghostfinn Rod", "Angler Rod", "Ares Rod", "Bamboo Rod"},
         },
     },
 
