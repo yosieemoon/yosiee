@@ -100,9 +100,9 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Enchant"] = {
         ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
-        ["Evolved Roll Enchant"] = false, -- true = Roll Evolved Stone until get ANY evolved-only enchant from list, then fallback to regular stone
+        ["Evolved Roll Enchant"] = true, -- true = Roll Evolved Stone until get ANY evolved-only enchant from list, then fallback to regular stone
         ["Enchant List"] = {
-            "Cursed I",
+            "SECRET Hunter",
     
         },
         ["Second Enchant"] = true,
@@ -123,6 +123,9 @@ _G.FishItConfig = _G.FishItConfig or {
         },
         ["Second Enchant List"] = {
             "Cursed I",
+            "Big Hunter I",
+            "Reeler I",
+            "Mutation Hunter II",
            
         },
         ["Minimum Rod"] = "Ghostfinn Rod",
