@@ -29,7 +29,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Selling"] = {
         ["Auto Sell"] = true,
-        ["Auto Sell Threshold"] = "mythic",
+        ["Auto Sell Threshold"] = "Legendary",
         ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
