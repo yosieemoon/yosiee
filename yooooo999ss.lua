@@ -154,8 +154,8 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
 
-    ["ExtremeFpsBoost"] = false,
-    ["UltimatePerformance"] = true,
+    ["ExtremeFpsBoost"] = true,
+    ["UltimatePerformance"] = false,
     ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = false,
 
