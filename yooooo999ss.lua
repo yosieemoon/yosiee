@@ -20,7 +20,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Fish Name"] = {"Ruby","Sacred Guardian Squid","Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin","Gingerbread Shark"
         },
         ["Item Name"] = {
-            "Eggy Enchant Stone","Runic Enchant Stone",
+            "Eggy Enchant Stone","Runic Enchant Stone","Evolved Enchant Stone",
     },
 },
     ["Farm Coin Only"] = {
@@ -36,7 +36,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Ghostfinn Rod"] = true,
         ["Auto Element Rod"] = false,
         ["Auto Element Rod 2"] = true,
-        ["Auto Diamond Rod"] = true,
+        ["Auto Diamond Rod"] = false,
  	["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
@@ -150,12 +150,12 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod", "Luck Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
-            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
     },
 
     ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = false,
+    ["UltimatePerformance"] = true,
     ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = false,
 
