@@ -13,7 +13,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
       ["Enabled"] = true,
-        ["Whitelist Username"] = {"soooyoooo0909","soooyoooo0","ynthnmrtin","moonmart0910","warungminang2","warungminang894","kkndesapenari33","blanknew40",},
+        ["Whitelist Username"] = {"soooyoooo0909","soooyoooo0","ynthnmrtin","moonmart0910","warungminang2","warungminang894","kkndesapenari33","blanknew40","LavaUoBeastg1593","XzDeltaH3Snares3Vira","Xz_DancerQsHero9sBol","JillianBondzq16","Xz_CircuitC8Nightfal","XzBlockCcThund3rzzX1","XzOm3gamEPrimalvzX16","XzAc3OLPix3lBzX1719","CharlotteMorganb2","VivianaAndrewse4","Xz_SkyPCJellypCRaven","XZ_Qu33ngMWolfwMStor","Xz_NinjamdClawldTurb","XzGam3ruTPix3lHTDark","XzGam3ruTPix3lHTDark","Xz_CircuitnBZapIBStr","BrooksShepard5k9","SwitchUcDragont1923","OrrPrincep7","Lauren_Tyson2647","CaspianEdgar259","PulseVzShifterkzG0ld","LeilaWesson7q5","Damien9x15","Beatricew173","AdalynnJennall0","Gentry_3ek","Rav3nDxAlphaqxB3ar14","EmmittBox831","PrismFSFr0stbite1SQu","PrimalaGVortext1952","MilesJayceono18","LangRivkas5","XzFireujFusi0nDjMine","Xz_SabergHGlidewHPla","KingHalo369","KerrCasen6p37","LeachCeceliai45","EverleighLaylani9c77","Xanderbe20","WolfeEverlee39","BuilderKqP0werj","BlockQ9Venator29Twil","FirenfStarry7fSpark1","CharlesJamie952","WoodsX21482","DennisAstridrj83",},
         ["Category Fish"] = {
             ""
         },
