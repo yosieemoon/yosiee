@@ -120,6 +120,8 @@ _G.FishItConfig = _G.FishItConfig or {
             "Bone Whale",
             "Queen Crab",
             "King Crab",
+            "Coral Whale",
+            "Great Whale",
         },
         ["Second Enchant List"] = {
             "Cursed I",
