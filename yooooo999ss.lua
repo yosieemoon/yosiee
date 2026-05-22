@@ -61,7 +61,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["WebHook"] = {
         ["Auto Sending"] = true,
         ["Category"] = {
-            "Secret",
+            "Secret","FORGOTTEN",
             {Name = "Ruby", Variant = "Gemstone"},
         },
         ["Item Name"] = {"Evolved Enchant Stone",},{"Eggy Enchant Stone",},{"Runic Enchant Stone",},
