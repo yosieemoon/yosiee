@@ -15,7 +15,7 @@ _G.FishItConfig = _G.FishItConfig or {
       ["Enabled"] = true,
         ["Whitelist Username"] = {"soooyoooo0909","soooyoooo0","ynthnmrtin","moonmart0910","warungminang2","warungminang894","kkndesapenari33","blanknew40","rindaman090910",},
         ["Category Fish"] = {
-            ""
+            "FORGOTTEN"
         },
         ["Fish Name"] = {"Ruby","Sacred Guardian Squid","Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin","Gingerbread Shark","Gladiator Shark","Elshark Gran Maja","Great Whale","Eerie Shark","Giant Squid","Mosasaur Shark","Cryoshade Glider","King Jelly","Panther Eel","Queen Crab","King Crab","Monster Shark","Viridis Lurker","Depthseeker Ray","Robot Kraken","Ancient Lochness Monster","Deepsea Monster Axolotl","Great Whale","Coral Whale","Thresher Shark",
         },
