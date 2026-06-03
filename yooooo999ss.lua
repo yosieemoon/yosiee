@@ -65,8 +65,8 @@ _G.FishItConfig = _G.FishItConfig or {
             {Name = "Ruby", Variant = "Gemstone"},
         },
         ["Item Name"] = {"Evolved Enchant Stone",},{"Eggy Enchant Stone",},{"Runic Enchant Stone",},
-        ["Link Webhook"] = "https://discord.com/api/webhooks/1415211763091247155/oPwylc3-SPn35TcC7mZKmFPnbGSqGa6xOqRAD2FMkBOLb0PbGRpkfcT_jgF6kS0gNMpX",
-        ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1449824144286945351/KFJOtI1N9AcNg3EXjXAGq7l90brfg2BIDuh1lOoSH-0YqwrI96tZIGuMPz4gjY3-OPPr",
+        ["Link Webhook"] = "https://discordapp.com/api/webhooks/1511647858921701487/vP0eMWeHDJHQxq4-DvQGtrozcz5opDJlN8tsrH8_9qtffT_qPqBUFgYGYl-9RjM2DT1i",
+        ["Link Webhook Quest Complete"] = "https://discordapp.com/api/webhooks/1511648096939937883/LcIVAe4X2Rn_NdQw4awtev0-cQD5RCLcUQeaASAfrHdHDbf49kMDVdRGQkJS_J5MTNv2",
     },
     ["Weather"] = {
         ["Auto Buying"] = true,
