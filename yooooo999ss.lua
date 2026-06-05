@@ -94,6 +94,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Event List"] = {
             ["Christmas Cave"] = false,
             ["Hacker Event"] = false,
+            "Megalodon Hunt",
             
             
         },
