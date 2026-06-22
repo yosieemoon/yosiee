@@ -5,7 +5,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Random Result"] = false,
         ["Auto Favorite"] = true,
         ["Fish Name"] = {
-            "Sacred Guardian Squid",
+            "Lochness Monster",
             {Name = "Ruby", Variant = "Gemstone"},"Easter Duckling","Pastel Guppie","Chocolate Bunny Fish","Easter Snail",
         },
         ["Auto Accept Trade"] = true,
@@ -13,14 +13,14 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
       ["Enabled"] = true,
-        ["Whitelist Username"] = {"soooyoooo0909","soooyoooo0","ynthnmrtin","moonmart0910","warungminang2","warungminang894","kkndesapenari33","blanknew40","rindaman090910","watanabe11116","warungminang2","xstormninja23","bulanlainnya09","diorgucci77791","radagellow252",},
+        ["Whitelist Username"] = {"mythicalyos01,mythicalyos02,mythicalyos03,mythicalyos04,mythicalyos05",},
         ["Category Fish"] = {
-            "FORGOTTEN"
+            "Mythic"
         },
-        ["Fish Name"] = {"Ruby","Sacred Guardian Squid","Holiday Turtle Plushie","Gingerbread Ray","Tree Horse","Reindeer Shark","Giftback Turtle","Christmas Penguin","Gingerbread Shark","Gladiator Shark","Elshark Gran Maja","Great Whale","Eerie Shark","Giant Squid","Mosasaur Shark","Cryoshade Glider","King Jelly","Panther Eel","Queen Crab","King Crab","Monster Shark","Viridis Lurker","Depthseeker Ray","Robot Kraken","Ancient Lochness Monster","Deepsea Monster Axolotl","Great Whale","Coral Whale","Thresher Shark","Megalodon","Bloodmoon Whale","Blob Shark","Ghost Shark","Worm Fish","Mutant Runic Koi",
+        ["Fish Name"] = {"Sacred Guardian Squid",
         },
         ["Item Name"] = {
-            "Eggy Enchant Stone","Runic Enchant Stone","Evolved Enchant Stone",
+            "Eggy Enchant Stone",
     },
 },
     ["Farm Coin Only"] = {
@@ -37,7 +37,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Element Rod"] = false,
         ["Auto Element Rod 2"] = false,
         ["Auto Diamond Rod"] = false,
- 	["Unlock Ancient Ruin"] = true,
+ 	["Unlock Ancient Ruin"] = false,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
             "Ghost Shark",
@@ -85,7 +85,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            ["Mutation Totem"] = 10,
+            ["Mutation Totem"] = 0,
         },
     },
     ["Event"] = {
@@ -100,14 +100,14 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = true,
+        ["Auto Enchant"] = false,
         ["Roll Enchant"] = false,
         ["Evolved Roll Enchant"] = true, -- true = Roll Evolved Stone until get ANY evolved-only enchant from list, then fallback to regular stone
         ["Enchant List"] = {
             "SECRET Hunter",
     
         },
-        ["Second Enchant"] = true,
+        ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
             "Ghost Shark",
