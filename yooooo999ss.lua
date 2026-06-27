@@ -94,7 +94,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Event List"] = {
             ["Christmas Cave"] = false,
             ["Hacker Event"] = false,
-            "Megalodon Hunt",
+            
             
             
         },
@@ -154,7 +154,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod", "Luck Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
-            ["Sewers"] = {"Diamond Rod", "Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Ancient Ruin"] = {"Diamond Rod", "Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
     },
 
