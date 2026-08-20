@@ -18,7 +18,7 @@ _G.FishItConfig = _G.FishItConfig or {
 
 	    ["Auto Egg Exchange"] = false,
 
-        ["Teleport"] = true,
+        ["Teleport"] = false,
         ["Auto Roll Ability"] = true,
         ["Equip Ability"] = "divine",
     },
