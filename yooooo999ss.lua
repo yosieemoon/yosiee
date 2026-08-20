@@ -109,8 +109,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Start Farm"] = false,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
-            ["Mutant Runic Koi"] = true,
-            ["Ancient Lochness Monster"] = true,
+            ["Mutant Runic Koi"] = false,
+            ["Ancient Lochness Monster"] = false,
             "Ghost Shark Hunt",
             "Shark Hunt",
             "Megalodon Hunt",
