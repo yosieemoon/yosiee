@@ -20,7 +20,7 @@ _G.FishItConfig = _G.FishItConfig or {
 
         ["Teleport"] = true,
         ["Auto Roll Ability"] = true,
-        ["Equip Ability"] = "divine",
+        ["Equip Ability"] = "divine","glitch",
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
